@@ -1,0 +1,35 @@
+import type { Client } from '@/types/content';
+
+// Curated, sector-spread roster shown in the marquee.
+// Replace with the real client list when delivered by the studio.
+export const clients: Client[] = [
+  { name: 'Aramco', sector: 'Energy' },
+  { name: 'SABIC', sector: 'Energy' },
+  { name: 'STC', sector: 'Telecom' },
+  { name: 'Mobily', sector: 'Telecom' },
+  { name: 'Zain', sector: 'Telecom' },
+  { name: 'PIF', sector: 'Government' },
+  { name: 'Misk Foundation', sector: 'Government' },
+  { name: 'Riyadh Season', sector: 'Cultural' },
+  { name: 'NEOM', sector: 'Giga-project' },
+  { name: 'ROSHN', sector: 'Real Estate' },
+  { name: 'Red Sea Global', sector: 'Giga-project' },
+  { name: 'Diriyah', sector: 'Cultural' },
+  { name: 'SNB', sector: 'Banking' },
+  { name: 'Al Rajhi', sector: 'Banking' },
+  { name: 'Riyad Bank', sector: 'Banking' },
+  { name: 'Almarai', sector: 'FMCG' },
+  { name: 'Saudia', sector: 'Aviation' },
+  { name: 'flynas', sector: 'Aviation' },
+  { name: 'Hyundai', sector: 'Automotive' },
+  { name: 'L\'Oréal', sector: 'Beauty' },
+  { name: 'Chalhoub', sector: 'Luxury' },
+  { name: 'Apparel Group', sector: 'Retail' },
+  { name: 'Cenomi', sector: 'Mall' },
+  { name: 'KAUST', sector: 'Education' },
+  { name: 'KFUPM', sector: 'Education' },
+  { name: 'Ministry of Investment', sector: 'Government' },
+  { name: 'MISA', sector: 'Government' },
+  { name: 'SDAIA', sector: 'Government' },
+  { name: 'MDLBeast', sector: 'Cultural' },
+];
