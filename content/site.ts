@@ -7,12 +7,12 @@ export const site = {
 
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '') ||
-    'https://sp-sa.net',
+    'https://startpoint-hub.com',
 
   contact: {
-    email: 'hello@sp-sa.net',
+    email: 'hello@startpoint-hub.com',
     phone: '+966 11 000 0000',
-    quote: 'projects@sp-sa.net',
+    quote: 'projects@startpoint-hub.com',
   },
 
   hq: {

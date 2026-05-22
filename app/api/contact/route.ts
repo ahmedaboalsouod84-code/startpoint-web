@@ -46,7 +46,7 @@ export async function POST(req: Request) {
     const { Resend } = await import('resend');
     const resend = new Resend(apiKey);
     const { error } = await resend.emails.send({
-      from: `${site.name} Site <noreply@sp-sa.net>`,
+      from: `${site.name} Site <noreply@startpoint-hub.com>`,
       to: [to],
       replyTo: payload.email,
       subject: `Contact: ${payload.name} — ${payload.company ?? 'no company'}`,
